@@ -1,0 +1,302 @@
+[root@55f4daed6b9a linux_practice2]# history 300
+    4  pwd
+    5  cd /root
+    6  pwd
+    7  cd usr
+    8  cd /usr
+    9  pwd
+   10  cd /home
+   11  ls
+   12  mkdir test1
+   13  ls
+   14  cd /home
+   15  mkdir test2/test3
+   16  cd /home
+   17  mkdir -p test2/test3
+   18  ls test2
+   19  cd /home
+   20  touch test1/index.php
+   21  ls test1
+   22  cd /home/test1 && ls
+   23  cd /home/test1
+   24  cp index.php copy.php
+   25  ls
+   26  cd /home
+   27  cp -r test1 test4
+   28  ls
+   29  ls test4
+   30  ls test3
+   31  ls test2
+   32  mv test2/test3 test3
+   33  ls
+   34  mv test4 test1_copy
+   35  ls
+   36  ls test1
+   37  rm test1/copy.php
+   38  ls test1
+   39  rm -r test3
+   40  ls
+   41  rm test1_copy/*.php
+   42  ls test1_copy
+   43  ls /
+   44  ls home
+   45  ls
+   46  ls test1
+   47  docker stop centos7
+   48  exit
+   49  ls /
+   50  cat README.md
+   51  ls
+   52  cd home
+   53  cat README.md
+   54  cd /home
+   55  echo '# Hello World' > README.md
+   56  cat README.md
+   57  echo '# Server Lesson' > README.md
+   58  cat README.md
+   59  echo 'Linux Practice' >> README.md
+   60  echo '-----------------' >> README.md
+   61  cat README.md
+   62  vi README.md
+   63  exit
+   64  cd /root
+   65  mkdir server_lesson && cd server_lesson
+   66  yum update -y && yum -y install git
+   67  git version
+   68  git init
+   69  git init
+   70  touch first.txt
+   71  ls
+   72  git commit -m '<コミッfirst_commit>'
+   73  git config --global user.email "xxxxx@xxxkatu_x1275@icloud.com"
+   74  git config --global user.name "adash333Katsunari2075"
+   75  git commit -m 'first_commit'
+   76  mkdir ディ linux_practice1
+   77  git commit -m 'linux_practice1ディレクトリを'
+   78  git reset --soft
+   79  git commit -m '<linux_practice1_create>'
+   80  ls
+   81  exit
+   82  cd /root
+   83  ls
+   84  cd server_lesson
+   85  ls
+   86  cd /root
+   87  rm server_lesson
+   88  ls
+   89  cd server_lesson
+   90  ls
+   91  rm linux_practice1
+   92  cd /root
+   93  rm -r server_lesson
+   94  y
+   95  cd /root
+   96  ls
+   97  mkdir server_lesson && cd server_lesson
+   98  yum update -y && yum -y install git
+   99  git version
+  100  git init
+  101  touch first.txt
+  102  git commit -m '<コミ?first_commit'
+  103  mkdir ディ linux_practice1
+  104  ls
+  105  git commit -m '<コミ?linux_practice1_create'
+  106  cd /root
+  107  ls
+  108  rm -r server_lesson
+  109  y
+  110  cd /root
+  111  ls
+  112  mkdir server_lesson && cd server_lesson
+  113  ls
+  114  ls
+  115  git version
+  116  git init
+  117  git status
+  118  touch first.txt
+  119  ls
+  120  git add .
+  121  git status
+  122  git commit -m 'first commit'
+  123  git status
+  124  git log
+  125  git remote -v
+  126  mkdir ディ mkdir  linux_practice1
+  127  ls
+  128  git commit -m 'linux_practice1ディレクトリの作成'
+  129  git log
+  130  ls
+  131  cd linux_practice1
+  132  ls
+  133  mkdir ディ public
+  134  ls
+  135  cd public
+  136  ls
+  137  touch フ? index.php
+  138  ls
+  139  git commit -m 'linux_practice1ディレクトリの中身を作成'
+  140  git log
+  141  git add .
+  142  git commit -m 'linux_practice1の中身の作成'
+  143  git log
+  144  cp index.php index_bk.php
+  145  ls
+  146  git add .
+  147  git commit -m 'first commit'
+  148  git reset --soft
+  149  git log
+  150  git commit --amend
+  151  git log
+  152  cd /server_lesson
+  153  cd server_lesson
+  154  cd /root
+  155  ls
+  156  cd server_lesson
+  157  ls
+  158  cd linux_practice1
+  159  ls
+  160  cp -r public tmp
+  161  ls
+  162  git add .
+  163  git commit -m 'publicディレクトリのコピーを作成'
+  164  git log
+  165  ls
+  166  ls tmp
+  167  rm tmp/index_bk.php
+  168  ls tmp
+  169  git commit -m 'tmp/index_bk.phpを削除'
+  170  git log
+  171  git status
+  172  git add .
+  173  git commit -m 'tmpのindex_bk.phpファイルを削除'
+  174  git log
+  175  git status
+  176  git add .
+  177  git status
+  178  cd /server_lesson
+  179  cd
+  180  ls
+  181  cd server_lesson
+  182  ls
+  183  touch フ? README.md
+  184  ls
+  185  vi README.md
+  186  cat README.md
+  187  git add .
+  188  git status
+  189  git commit -m 'README.mdの作成'
+  190  git status
+  191  git remote add origin https://github.com/Katsunari2075/server_lesson.git
+  192  git remote -v
+  193  git push origin master
+  194  mkdir ディ linux_practice2
+  195  ls
+  196  cd linux_practice2
+  197  ls
+  198  mkdir ディ documents
+  199  ls
+  200  git add .
+  201  git status
+  202  ls
+  203  cd
+  204  ls
+  205  rm -r server_lesson
+  206  y
+  207  y
+  208  ls
+  209  cd /root
+  210  mkdir server_lesson && cd server_lesson
+  211  git version
+  212  git init
+  213  git status
+  214  touch first.txt
+  215  ls
+  216  git status
+  217  git commit -m 'first commit'
+  218  git add .
+  219  git commit -m 'first commit'
+  220  git status
+  221  mkdir ディ linux_practice1
+  222  cd linux_practice1
+  223  ls
+  224  mkdir ディ public
+  225  ls
+  226  cd public
+  227  ls
+  228  touch index.php
+  229  ls
+  230  git commit -m 'linux_practice1の中身の作成'
+  231  git add .
+  232  git commit -m 'linux_practice1の中身の作成'
+  233  cp index.php index_bk.php
+  234  git add .
+  235  git commit -m 'index.phpのコピーを作成'
+  236  cd /linux_practice1
+  237  cd
+  238  ls
+  239  cd server_lesson
+  240  ls
+  241  cd linux_practice1
+  242  cp -r public tmp
+  243  ls
+  244  git add .
+  245  git commit -m 'publicのコピーを作成'
+  246  rm tmp/index_bk.php
+  247  ls
+  248  ls tmp
+  249  git commit -m 'tmp/index_bk.phpを削除'
+  250  git add .
+  251  git status
+  252  cd
+  253  cd server_lesson
+  254  ls
+  255  touch README.md
+  256  ls
+  257  vi README.md
+  258  cat README.md
+  259  vi フ? README.md
+  260  git add .
+  261  git commit -m 'README.mdの作成'
+  262  mkdir ディ linux_practice2
+  263  ls
+  264  cd linux_practice2
+  265  ls
+  266  mkdir ディ documents
+  267  ls
+  268  cd documents
+  269  ls
+  270  touch gizumo{01..50}.md
+  271  ls
+  272  git add .
+  273  git commit -m 'documentsディレクトリの作成'
+  274  cd
+  275  ls
+  276  cd server_lesson
+  277  ls
+  278  cd linux_practice2
+  279  ls
+  280  mkdir ディ trash
+  281  ls
+  282  cd documents
+  283  cd 
+  284  ls
+  285  cd server_lesson
+  286  ls
+  287  cd linux_practice2
+  288  ls
+  289  mv documents/gizumo{20..40}.md trash
+  290  ls trash
+  291  git add .
+  292  git status
+  293  git commit -m 'documentsディレクトリ下にある gizumo20.md ~ gizumo40.md を 移動'
+  294  mkdir
+  295  touch .gitignore
+  296  git add .
+  297  git commit -m '.gitignoreファイルを作成'
+  298  vi .gitignore
+  299  cat .gitignore
+  300  git add .
+  301  git commit -m 'gizumo20.md ~ gizumo29.md までのファイルをgitの管理から外す'
+  302  touch exec_command.log
+  303  history 300
+
